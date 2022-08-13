@@ -1,0 +1,28 @@
+<html>
+   <body>
+    <div id='test2'>123123</div>
+</body>
+<script>
+
+class test{
+   constructor ()
+   {
+        this.echo();
+
+   }
+
+   echo(){
+       return 'hello world';
+   }
+}
+
+let test_echo = new test().echo();
+
+//alert(test_echo);
+
+let element = document.getElementById("test2");
+element.innerHTML = test_echo;
+
+</script>
+
+</html>
