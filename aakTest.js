@@ -7,4 +7,7 @@ class test{
     }
 }
 
-let test = test.echo();
+let test_echo = new test.echo();
+
+alert(test_echo);
+alert('123');
